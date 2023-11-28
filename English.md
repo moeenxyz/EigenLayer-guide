@@ -158,5 +158,5 @@ If the status shows “Operator is registered,” your setup is complete. Check 
 ### Support My Work
 If you found this guide useful, consider delegating to me:
 - [Delegate to Moeen](https://goerli.eigenlayer.xyz/operator/0xe3c694453d69caea4edcbb0bb8d24accc6932565)
-```
+
 
