@@ -144,7 +144,7 @@ bls_public_key_compendium_address: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
 Transfer GoerliETH to your operator address for fees, then execute:
 
 ```shell
-./eigenlayer operator register operator-config.yaml
+./eigenlayer operator register operator.yaml
 ```
 
 Verify your operator status:
