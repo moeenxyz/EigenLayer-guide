@@ -211,7 +211,7 @@ bls_public_key_compendium_address: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
 سپس اجرا کنید:
 
 ```
-./eigenlayer operator register operator-config.yaml
+./eigenlayer operator register operator.yaml
 ```
 
 بعد از انجام این کار، بررسی کنید که همه چیز درست انجام شده:
