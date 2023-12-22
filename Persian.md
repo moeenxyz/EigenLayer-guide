@@ -131,6 +131,8 @@ Docker Compose version vX.XX.X
 
 ```shell
 curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scripts/install.sh | sh -s
+export PATH=$PATH:~/bin
+
 ```
 
 حالا شما eigenlayer رو نصب کردید.
@@ -139,8 +141,8 @@ curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scr
 کلمه کلیدی [keyname] رو به نام دلخواه خودتون تغییر بدید.
 
 ```shell
-./eigenlayer operator keys create --key-type ecdsa [keyname]
-./eigenlayer operator keys create --key-type bls [keyname]
+eigenlayer operator keys create --key-type ecdsa [keyname]
+eigenlayer operator keys create --key-type bls [keyname]
 ```
 
 در این مرحله برنامه از شما درخواست رمز عبور برای رمزگذاری کلید خصوصی ECDSA و BLS می‌شه. دو مرحله داره و می‌تونید از دو رمز مجزا یا شبیه هم استفاده کنید، رمز رو در جای دیگه‌ای ایجاد کنید و اینجا پیست کنید. 
@@ -169,7 +171,7 @@ https://docs.eigenlayer.xyz/operator-guides/operator-installation#import-keys
 سپس اجرا کنید:
 
 ```shell
-./eigenlayer operator config create
+eigenlayer operator config create
 ```
 
 و تمام اطلاعاتی که می‌خواد رو تکمیل کنید، مانند زیر:
@@ -204,13 +206,13 @@ bls_public_key_compendium_address: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
 سپس اجرا کنید:
 
 ```
-./eigenlayer operator register operator.yaml
+eigenlayer operator register operator.yaml
 ```
 
 بعد از انجام این کار، بررسی کنید که همه چیز درست انجام شده:
 
 ```
-./eigenlayer operator status operator.yaml
+eigenlayer operator status operator.yaml
 ```
 
 اگر پیام زیر را دیدید همه چیز درست هست،
