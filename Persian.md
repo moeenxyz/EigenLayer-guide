@@ -125,19 +125,12 @@ Docker Compose version vX.XX.X
 
 حالا وقت نصب eigenlayer CLI است،
 
-در حال حال حاضر، آخرین نسخه 0.4.3 است، می‌توانید نسخه رو با بررسی مخزن GitHub تیم به روز کنید.
+در حال حال حاضر، آخرین نسخه ۰.۵.۰ است، می‌توانید نسخه رو با بررسی مخزن GitHub تیم به روز کنید.
 
  برای Linux/amd64 :
 
 ```shell
-curl -L https://github.com/NethermindEth/eigenlayer/releases/download/v0.4.3/eigenlayer-linux-amd64 --output eigenlayer
-chmod +x ./eigenlayer
-```
-
-سپس:
-
-```shell
-chmod +x ./eigenlayer
+curl -sSfL https://raw.githubusercontent.com/layr-labs/eigenlayer-cli/master/scripts/install.sh | sh -s
 ```
 
 حالا شما eigenlayer رو نصب کردید.
